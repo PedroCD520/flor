@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi 14 de febrero, Florencia?</title>
+    <style>
+        body {
+            background-color: #ffcccb;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 20vh;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #d10000;
+            text-shadow: 2px 2px 5px #ff0000;
+        }
+        .hearts {
+            font-size: 5rem;
+            color: #ff0000;
+            animation: heartbeat 1s infinite alternate;
+        }
+        @keyframes heartbeat {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.2);
+            }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #d10000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts">❤️💕💖💘</div>
+        <h1>¿Quieres ser mi 14 de febrero, Florencia? 💝</h1>
+        <button class="button" onclick="alert('¡Espero que digas que sí! 💕')">Sí, quiero 💘</button>
+        <div class="hearts">💘💖💕❤️</div>
+    </div>
+</body>
+</html>
